@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* ===( CODE AASHU )=== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.nav ul li{
+    font-family: 'poppins' , 'sans-serif';
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+.nav ul li:nth-child(5){
+    color: #fff;
+    background: rgb(132 103 245);
+    padding: 15px 45px;
+    border-radius: 20px;
+}
+.nav ul li:hover:nth-child(5){
+    border: 1px solid rgb(132 103 245);
+    background: transparent;
+    transform: translateY(0);
+}
+.nav ul li:hover{
+    color: rgb(132 103 245);
+    transform: translateY(-5px);
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/strip.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdc2c4;
+}
+.hero-section h1{
+    font-family: 'poppins' , 'sans-serif';
+    font-weight: 600;
+    font-size: 60px;
+    text-transform: capitalize;
+    width: 699px;
+    line-height: 85px;
+    color: #1b2026;
+}
+h1 span{
+    color: rgb(132 103 245);
+}
+.hero-section p{
+    font-family: 'poppins' , 'sans-serif';
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 600px;
+    padding: 15px 0px 60px;
+    opacity: .5;
+}
+.hero-img{
+    margin-top: 150px;
+}
+input{
+    width: 600px;
+    padding: 25px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px 0px #0000006e;
+    cursor: pointer;
+}
+button{
+    font-family: 'poppins' , 'sans-serif';
+    font-weight: 400;
+    font-size: 15px;
+    position: absolute;
+    right: 110px;
+    top: 6px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to left,#fdc2c4,#9d7bec);
+    color: #fff;
+    cursor: pointer;
+}
+.input-field{
+    position: relative;
+}
+.icons{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.icon{
+    background: rgb(132 103 245);
+    padding: 8px 11px;
+    border-radius: 50%;
+    transition: .5s;
+    cursor: pointer;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}
